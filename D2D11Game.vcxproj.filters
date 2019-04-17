@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Framework\Core\Subsystem\Graphics.cpp" />
+    <ClCompile Include="Framework\Core\Settings.cpp" />
+    <ClCompile Include="Framework\Core\Engine.cpp" />
+    <ClCompile Include="Framework\Core\Vertices.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Framework\Core\Window.h" />
+    <ClInclude Include="Framework\Core\SubSystem\ISubsystem.h" />
+    <ClInclude Include="Framework\Core\Context.h" />
+    <ClInclude Include="Framework\Core\Subsystem\Graphics.h" />
+    <ClInclude Include="Framework\Core\Settings.h" />
+    <ClInclude Include="Framework\Core\Engine.h" />
+    <ClInclude Include="Framework\Core\Vertices.h" />
+  </ItemGroup>
+</Project>
